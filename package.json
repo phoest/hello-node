@@ -1,0 +1,15 @@
+{
+  "name": "hello-node",
+  "description": "basic hello world",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/phoest/hello-node.git"
+  },
+  "private": true,
+  "engineStrict": true,
+  "engine": {
+    "node": "0.12.00",
+    "npm": "2.7.1"
+  }
+}
