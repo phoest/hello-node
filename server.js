@@ -15,7 +15,7 @@ app.use(assignId)
 app.use(morgan(':id :remote-addr - :remote-user [:date[clf]] ":method :url HTTP/:http-version" :status :res[content-length] :response-time'))
 
 app.get('/', function (req, res) {
-  res.status(200).send('hello, world!')
+  res.status(200).send(foo())
 })
 
 function assignId(req, res, next) {
